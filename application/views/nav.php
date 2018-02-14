@@ -1,4 +1,5 @@
 <div class="customizer-backdrop"></div>
+<div class="site-backdrop"></div>
     <!-- Off-Canvas Category Menu-->
     <div class="offcanvas-container" id="shop-categories">
       <div class="offcanvas-header">
@@ -6,16 +7,16 @@
       </div>
       <nav class="offcanvas-menu">
         <ul class="menu">
-          <li class="has-children"><span><a href="#">Men's Shoes</a><span class="sub-menu-toggle"></span></span>
+          <li class="has-children"><span><a href="#">Smart Phone</a><span class="sub-menu-toggle"></span></span>
             <ul class="offcanvas-submenu">
-              <li><a href="#">Sneakers</a></li>
-              <li><a href="#">Loafers</a></li>
-              <li><a href="#">Boat Shoes</a></li>
-              <li><a href="#">Sandals</a></li>
-              <li><a href="#">View All</a></li>
+              <li><a href="#">Samsung</a></li>
+              <li><a href="#">Oppo</a></li>
+              <li><a href="#">Xiaomi</a></li>
+              <li><a href="#">Lenovo</a></li>
+              <li><a href="#">LG</a></li>
             </ul>
           </li>
-          <li class="has-children"><span><a href="#">Women's Shoes</a><span class="sub-menu-toggle"></span></span>
+          <li class="has-children"><span><a href="#">Pakaian</a><span class="sub-menu-toggle"></span></span>
             <ul class="offcanvas-submenu">
               <li><a href="#">Sandals</a></li>
               <li><a href="#">Flats</a></li>
@@ -77,7 +78,7 @@
         <div class="user-ava"><img src="<?php echo base_url();?>assets/img/account/user-ava-md.jpg" alt="Daniel Adams">
         </div>
         <div class="user-info">
-          <h6 class="user-name">Daniel Adams</h6><span class="text-sm text-white opacity-60">290 Reward points</span>
+          <h6 class="user-name">Pengunjung</h6><span class="text-sm text-white opacity-60">290 Reward points</span>
         </div></a>
       <nav class="offcanvas-menu">
         <ul class="menu">
@@ -291,7 +292,7 @@
               </li>
                 <li><a href="shop-single.html">Single Product</a></li>
                 <li><a href="cart.html">Cart</a></li>
-              <li class="has-children"><a href="checkout-address.html"><span>Checkout</span></a>
+              <li class="has-children"><a href="<?php echo base_url();?>/pembeli/checkout"><span>Checkout</span></a>
                 <ul class="sub-menu">             
                     <li><a href="checkout-address.html">Address</a></li>
                     <li><a href="checkout-shipping.html">Shipping</a></li>
@@ -419,8 +420,8 @@
                 </li>
                 <div class="col-sm-6 form-group">
                 <div class="custom-control custom-checkbox" align="Left">
-                  <input class="custom-control-input" type="checkbox" id="ex-check-2">
-                  <label class="custom-control-label" for="ex-check-1">Ingat Saya</label>
+                  <input class="custom-control-input" type="checkbox" id="ex-check-1">
+                  <label class="custom-control-label" for="ex-check-1">Remember</label>
                 </div>
                 </div>
                    <div class="toolbar-dropdown-group">
@@ -433,7 +434,7 @@
   
 
             </div>
-            <div class="cart"><a href="cart.html"></a><i class="icon-bag"></i><span class="count"></span><span class="subtotal">Rp. 0</span>
+            <div class="cart"><a href="<?php echo base_url();?>pembeli/view_cart"></a><i class="icon-bag"></i><span class="count"></span><span class="subtotal">Rp. 0</span>
 
               <div class="toolbar-dropdown">
                 
@@ -443,8 +444,8 @@
                   <div class="column text-right"><span class="text-lg text-medium">Rp. 0&nbsp;</span></div>
                 </div>
                 <div class="toolbar-dropdown-group">
-                  <div class="column"><a class="btn btn-sm btn-block btn-secondary" href="cart.html">View Cart</a></div>
-                  <div class="column"><a class="btn btn-sm btn-block btn-success" href="checkout-address.html">Checkout</a></div>
+                  <div class="column"><a class="btn btn-sm btn-block btn-secondary" href="<?php echo base_url();?>pembeli/view_cart">View Cart</a></div>
+                  <div class="column"><a class="btn btn-sm btn-block btn-success" href="<?php echo base_url();?>pembeli/checkout">Checkout</a></div>
                 </div>
               </div>
             </div>
