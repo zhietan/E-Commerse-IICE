@@ -77,92 +77,191 @@
     </div>
 	<content>
 		<div class="offcanvas-wrapper">
-		<section class="hero-slider" style="background-image: url(img/hero-slider/main-bg.jpg);">
-        <div class="owl-carousel large-controls dots-inside" data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 7000 }">
-          <div class="item">
-            <div class="container padding-top-3x">
-              <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 col-md-6 padding-bottom-2x text-md-left text-center">
-                  <div class="from-bottom"><img class="d-inline-block w-150 mb-4" src="<?php echo base_url();?>assets/img/hero-slider/logo02.png" alt="Puma">
-                    <div class="h2 text-body text-normal mb-2 pt-1">Puma Backpacks Collection</div>
-                    <div class="h2 text-body text-normal mb-4 pb-1">starting at <span class="text-bold">$37.99</span></div>
-                  </div><a class="btn btn-primary scale-up delay-1" href="shop-grid-ls.html">View Offers</a>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+          <hr class="margin-bottom-1x">
+            <!-- carousel banner kanan -->
+            <div class="owl-carousel" data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true,&quot;autoplay&quot;: true }">
+              <img src="<?php echo base_url();?>assets/img/components/img01.jpg" alt="Image">
+              <img src="<?php echo base_url();?>assets/img/components/img02.jpg" alt="Image">
+              <img src="<?php echo base_url();?>assets/img/components/img03.jpg" alt="Image">
+            </div>
+          
+          </div>
+          
+            <!--  Men promo -->
+            <div class="col-md-6">
+             <div class="hidden-xs-down">
+              <hr class="margin-bottom-1x">
+            <div class="card-group">
+
+              <div class="card margin-bottom-1x">
+                <a href="#">
+                  <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img04.jpg" alt="Card image">
+                  </a>
+                  <div class="text-danger" align="center">5 hari lagi</div>
+                  <a href="#">
+                <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img04.jpg" alt="Card image">
+                  </a>
+                <div class="card-body">
+                  <h6 class="text-center">12 Hari lagi</h6>
                 </div>
-                <div class="col-md-6 padding-bottom-2x mb-3"><img class="d-block mx-auto" src="<?php echo base_url();?>assets/img/hero-slider/02.png" alt="Puma Backpack"></div>
+               
+              </div>
+              <div class="card margin-bottom-1x">
+                <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img05.jpg" alt="Card image">
+                 <div class="text-danger" align="center">5 hari lagi</div>
+                <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img04.jpg" alt="Card image">
+                <div class="card-body">
+                  <h6 class="text-center">12 Hari lagi</h6>
+                  
+                </div>
+                
+              </div>
+              <div class="card margin-bottom-1x">
+                <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img06.jpg" alt="Card image">
+                 <div class="text-danger" align="center">5 hari lagi</div>
+                <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img04.jpg" alt="Card image">
+                <div class="card-body">
+                  <h6 class="text-center">17 Hari lagi</h6>
+                  
+                </div>
+                
               </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="container padding-top-3x">
-              <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 col-md-6 padding-bottom-2x text-md-left text-center">
-                  <div class="from-bottom"><img class="d-inline-block w-200 mb-4" src="<?php echo base_url();?>assets/img/hero-slider/logo01.png" alt="Converse">
-                    <div class="h2 text-body text-normal mb-2 pt-1">Chuck Taylor All Star II</div>
-                    <div class="h2 text-body text-normal mb-4 pb-1">for only <span class="text-bold">$59.99</span></div>
-                  </div><a class="btn btn-primary scale-up delay-1" href="shop-single.html">Shop Now</a>
-                </div>
-                <div class="col-md-6 padding-bottom-2x mb-3"><img class="d-block mx-auto" src="<?php echo base_url();?>assets/img/hero-slider/01.png" alt="Chuck Taylor All Star II"></div>
-              </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="container padding-top-3x">
-              <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 col-md-6 padding-bottom-2x text-md-left text-center">
-                  <div class="from-bottom"><img class="d-inline-block mb-4" src="<?php echo base_url();?>assets/img/hero-slider/logo03.png" style="width: 125px;" alt="Motorola">
-                    <div class="h2 text-body text-normal mb-2 pt-1">Smart Watch Moto 360 2nd</div>
-                    <div class="h2 text-body text-normal mb-4 pb-1">for only <span class="text-bold">$299.99</span></div>
-                  </div><a class="btn btn-primary scale-up delay-1" href="shop-single.html">Shop Now</a>
-                </div>
-                <div class="col-md-6 padding-bottom-2x mb-3"><img class="d-block mx-auto" src="<?php echo base_url();?>assets/img/hero-slider/03.png" alt="Moto 360"></div>
-              </div>
+
+          
             </div>
+          <!-- Akhir menu Promo -->
           </div>
-        </div>
-      </section>
+           
+            
+              
+          
+        
+      </div>
       <section>
       	<!-- Top Categories-->
-      <section class="container padding-top-3x">
-        <h3 class="text-center mb-30">Top Categories</h3>
+      <section class="container">
+         <div class="hidden-xs-down">
+        <hr class="">
+        <h3 class="text-left">Kategory Produk</h3>
         <div class="row">
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-2 col-sm-4">
             <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
                 <div class="inner">
                   <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/01.jpg" alt="Category"></div>
-                  <div class="thumblist"><img src="<?php echo base_url();?>assets/img/shop/categories/02.jpg" alt="Category"><img src="<?php echo base_url();?>assets/img/shop/categories/03.jpg" alt="Category"></div>
                 </div></a>
-              <div class="card-body text-center">
-                <h4 class="card-title">Clothing</h4>
-                <p class="text-muted">Starting from $49.99</p><a class="btn btn-outline-primary btn-sm" href="shop-grid-ls.html">View Products</a>
-              </div>
+                <div class="text-center">Pakaian Pria</div>
+              
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
+
+          <div class="col-md-2 col-sm-4">
             <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
                 <div class="inner">
                   <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/04.jpg" alt="Category"></div>
-                  <div class="thumblist"><img src="<?php echo base_url();?>assets/img/shop/categories/05.jpg" alt="Category"><img src="<?php echo base_url();?>assets/img/shop/categories/06.jpg" alt="Category"></div>
                 </div></a>
-              <div class="card-body text-center">
-                <h4 class="card-title">Shoes</h4>
-                <p class="text-muted">Starting from $56.00</p><a class="btn btn-outline-primary btn-sm" href="shop-grid-ls.html">View Products</a>
-              </div>
+                <div class="text-center">Handphone</div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
+
+          <div class="col-md-2 col-sm-4">
             <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
                 <div class="inner">
-                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/07.jpg" alt="Category"></div>
-                  <div class="thumblist"><img src="<?php echo base_url();?>assets/img/shop/categories/08.jpg" alt="Category"><img src="<?php echo base_url();?>assets/img/shop/categories/09.jpg" alt="Category"></div>
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/07.jpg" alt="Category"></div> 
                 </div></a>
-              <div class="card-body text-center">
-                <h4 class="card-title">Bags</h4>
-                <p class="text-muted">Starting from $27.00</p><a class="btn btn-outline-primary btn-sm" href="shop-grid-ls.html">View Products</a>
-              </div>
+                <div class="text-center">Komputer</div>
+            </div> 
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/05.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Fashion Bayi & Anak</div>
             </div>
           </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/04.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Sepatu Pria</div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/03.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Tas Pria</div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/02.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Jam Tangan</div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/10.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Elektronik</div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/09.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Pakaian Wanita</div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/14.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Kecantikan</div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/16.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Perlengkapan Rumah</div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
+                <div class="inner">
+                  <div class="main-img"><img src="<?php echo base_url();?>assets/img/shop/categories/17.jpg" alt="Category"></div>     
+                </div></a>
+                <div class="text-center">Hobi & Koleksi</div>
+            </div>
+          </div>
+
         </div>
-        <div class="text-center"><a class="btn btn-outline-secondary margin-top-none" href="<?php echo base_url(); ?>pembeli/kategori_produk">Semua Categories</a></div>
+        <div class="text-center"><a class="btn btn-primary margin-top-none" href="<?php echo base_url(); ?>pembeli/kategori_produk">Semua Categories</a></div>
+      </div>
       </section>
       </section>
 		
@@ -206,18 +305,18 @@
               </h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
           <!-- Product-->
           <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/02.jpg" alt="Product"></a>
+            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/03.jpg" alt="Product"></a>
               <h3 class="product-title"><a href="shop-single.html">Cole Haan Crossbody</a></h3>
               <h4 class="product-price">$200.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -230,7 +329,7 @@
               <h4 class="product-price">$155.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -241,7 +340,7 @@
               <h4 class="product-price">$47.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -254,7 +353,7 @@
               <h4 class="product-price">$65.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -268,7 +367,7 @@
               </h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -279,7 +378,7 @@
               <h4 class="product-price">$69.99</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -304,7 +403,7 @@
               </h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -315,7 +414,7 @@
               <h4 class="product-price">$31.99</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -328,7 +427,7 @@
               <h4 class="product-price">$90.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -339,7 +438,7 @@
               <h4 class="product-price">$49.50</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -350,7 +449,7 @@
               <h4 class="product-price">$88.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -361,7 +460,7 @@
               <h4 class="product-price">$145.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -372,7 +471,7 @@
               <h4 class="product-price">$90.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -383,7 +482,7 @@
               <h4 class="product-price">$29.99</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -412,7 +511,7 @@
 		<!-- Brand populer -->
 			 <section class="bg-faded padding-top-3x padding-bottom-3x">
         <div class="container">
-          <h3 class="text-center mb-30 pb-2">Popular Brands</h3>
+          <h3 class="text-center mb-30 pb-2">Brands Resmi</h3>
           <div class="owl-carousel" data-owl-carousel="{ &quot;nav&quot;: false, &quot;dots&quot;: false, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:2}, &quot;470&quot;:{&quot;items&quot;:3},&quot;630&quot;:{&quot;items&quot;:4},&quot;991&quot;:{&quot;items&quot;:5},&quot;1200&quot;:{&quot;items&quot;:6}} }">
           	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/01.png" alt="Adidas">
           	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/02.png" alt="Brooks">

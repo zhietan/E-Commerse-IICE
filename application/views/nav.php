@@ -3,7 +3,7 @@
     <!-- Off-Canvas Category Menu-->
     <div class="offcanvas-container" id="shop-categories">
       <div class="offcanvas-header">
-        <h3 class="offcanvas-title">Shop Categories</h3>
+        <h3 class="offcanvas-title">Kategori</h3>
       </div>
       <nav class="offcanvas-menu">
         <ul class="menu">
@@ -18,55 +18,54 @@
           </li>
           <li class="has-children"><span><a href="#">Pakaian</a><span class="sub-menu-toggle"></span></span>
             <ul class="offcanvas-submenu">
+              <li><a href="#">Pakaian Pria</a></li>
+              <li><a href="#">Pakaian Wanita</a></li>
+              <li><a href="#">Fashion Bayi & Anak</a></li>
+              
+            </ul>
+          </li>
+          <li class="has-children"><span><a href="#">Komputer</a><span class="sub-menu-toggle"></span></span>
+            <ul class="offcanvas-submenu">
+              <li><a href="#">Laptop</a></li>
+              <li><a href="#">Nootebook</a></li>
+              <li><a href="#">PC</a></li>
+              <li><a href="#">Mini PC</a></li>
+            </ul>
+          </li>
+          <li class="has-children"><span><a href="#">Elektronik</a><span class="sub-menu-toggle"></span></span>
+            <ul class="offcanvas-submenu">
+              <li><a href="#">TeleVisi</a></li>
+              <li><a href="#">Mesin Cuci</a></li>
+              <li><a href="#">Lemari Es</a></li>
+              <li><a href="#">Speaker</a></li>
+              <li><a href="#">Home Theater</a></li>
+            </ul>
+          </li>
+          <li class="has-children"><span><a href="#">Sepatu</a><span class="sub-menu-toggle"></span></span>
+            <ul class="offcanvas-submenu">
+              <li><a href="#">Sepatu Anak</a></li>
               <li><a href="#">Sandals</a></li>
-              <li><a href="#">Flats</a></li>
-              <li><a href="#">Sneakers</a></li>
-              <li><a href="#">Heels</a></li>
+              <li><a href="#">Sepatu Pria</a></li>
+              <li><a href="#">Sepatu Wanita</a></li>
               <li><a href="#">View All</a></li>
             </ul>
           </li>
-          <li class="has-children"><span><a href="#">Men's Clothing</a><span class="sub-menu-toggle"></span></span>
+          <li class="has-children"><span><a href="#">Tas</a><span class="sub-menu-toggle"></span></span>
             <ul class="offcanvas-submenu">
-              <li><a href="#">Shirts &amp; Tops</a></li>
-              <li><a href="#">Pants</a></li>
-              <li><a href="#">Jackets</a></li>
-              <li><a href="#">View All</a></li>
-            </ul>
-          </li>
-          <li class="has-children"><span><a href="#">Women's Clothing</a><span class="sub-menu-toggle"></span></span>
-            <ul class="offcanvas-submenu">
-              <li><a href="#">Dresses</a></li>
-              <li><a href="#">Shirts &amp; Tops</a></li>
-              <li><a href="#">Shorts</a></li>
-              <li><a href="#">Swimwear</a></li>
-              <li><a href="#">View All</a></li>
-            </ul>
-          </li>
-          <li class="has-children"><span><a href="#">Kid's Shoes</a><span class="sub-menu-toggle"></span></span>
-            <ul class="offcanvas-submenu">
-              <li><a href="#">Boots</a></li>
-              <li><a href="#">Sandals</a></li>
-              <li><a href="#">Crib Shoes</a></li>
-              <li><a href="#">Loafers</a></li>
-              <li><a href="#">View All</a></li>
-            </ul>
-          </li>
-          <li class="has-children"><span><a href="#">Bags</a><span class="sub-menu-toggle"></span></span>
-            <ul class="offcanvas-submenu">
-              <li><a href="#">Handbags</a></li>
+              <li><a href="#">Tas Pria</a></li>
               <li><a href="#">Backpacks</a></li>
               <li><a href="#">Luggage</a></li>
-              <li><a href="#">Wallets</a></li>
+              <li><a href="#">Tas Wanita</a></li>
               <li><a href="#">View All</a></li>
             </ul>
           </li>
           <li class="has-children"><span><a href="#">Accessories</a><span class="sub-menu-toggle"></span></span>
             <ul class="offcanvas-submenu">
-              <li><a href="#">Sunglasses</a></li>
-              <li><a href="#">Hats</a></li>
-              <li><a href="#">Watches</a></li>
-              <li><a href="#">Jewelry</a></li>
-              <li><a href="#">Belts</a></li>
+              <li><a href="#">Jam Tangan</a></li>
+              <li><a href="#">Topi</a></li>
+              <li><a href="#">Kaamata</a></li>
+              <li><a href="#">Perhiasan</a></li>
+              <li><a href="#">Sabuk</a></li>
               <li><a href="#">View All</a></li>
             </ul>
           </li>
@@ -78,7 +77,7 @@
         <div class="user-ava"><img src="<?php echo base_url();?>assets/img/account/user-ava-md.jpg" alt="Daniel Adams">
         </div>
         <div class="user-info">
-          <h6 class="user-name">Pengunjung</h6><span class="text-sm text-white opacity-60">290 Reward points</span>
+          <h6 class="user-name">User</h6><span class="text-sm text-white opacity-60">290 Reward points</span>
         </div></a>
       <nav class="offcanvas-menu">
         <ul class="menu">
@@ -91,7 +90,7 @@
           </li>
           <li class="has-children"><span><a href="shop-grid-ls.html"><span>Shop</span></a><span class="sub-menu-toggle"></span></span>
             <ul class="offcanvas-submenu">
-                <li><a href="shop-categories.html">Shop Categories</a></li>
+                <li><a href="shop-categories.html">Kategory/a></li>
               <li class="has-children"><span><a href="shop-grid-ls.html"><span>Shop Grid</span></a><span class="sub-menu-toggle"></span></span>
                 <ul class="offcanvas-submenu">
                     <li><a href="shop-grid-ls.html">Grid Left Sidebar</a></li>
@@ -231,29 +230,30 @@
                 <li><a href="components/media.html">Media Object</a></li>
                 <li><a href="components/modal.html">Modal</a></li>
                 <li><a href="components/pagination.html">Pagination</a></li>
-                <li><a href="components/pills.html">Pills</a></li>
-                <li><a href="components/progress-bars.html">Progress Bars</a></li>
-                <li><a href="components/shop-items.html">Shop Items</a></li>
-                <li><a href="components/steps.html">Steps</a></li>
-                <li><a href="components/tables.html">Tables</a></li>
-                <li><a href="components/tabs.html">Tabs</a></li>
-                <li><a href="components/team.html">Team</a></li>
-                <li><a href="components/toasts.html">Toast Notifications</a></li>
-                <li><a href="components/tooltips-popovers.html">Tooltips &amp; Popovers</a></li>
-                <li><a href="components/typography.html">Typography</a></li>
-                <li><a href="components/video-player.html">Video Player</a></li>
-                <li><a href="components/widgets.html">Widgets</a></li>
+             
             </ul>
           </li>
         </ul>
       </nav>
     </div>
     <!-- Topbar-->
-    <div class="topbar">
-      <div class="topbar-column"><a class="hidden-md-down" href="mailto:support@unishop.com"><i class="icon-mail"></i>&nbsp; support@iice.co.id</a><a class="hidden-md-down" href="tel:00331697720"><i class="icon-bell"></i>&nbsp; 021 009345</a><a class="social-button sb-facebook shape-none sb-dark" href="#" target="_blank"><i class="socicon-facebook"></i></a><a class="social-button sb-twitter shape-none sb-dark" href="#" target="_blank"><i class="socicon-twitter"></i></a><a class="social-button sb-instagram shape-none sb-dark" href="#" target="_blank"><i class="socicon-instagram"></i></a><a class="social-button sb-pinterest shape-none sb-dark" href="#" target="_blank"><i class="socicon-pinterest"></i></a>
-      </div>
+     <div class="topbar">
+      <div class="text-light">
    
+
+    <div align="Right">
+       <a class="text-light" href="#" style="text-decoration: none;">Download Aplikasi</a>&nbsp;|&nbsp;
+      <a class="text-light" href="#" style="text-decoration: none;">Elektronik</a>&nbsp;|&nbsp;
+      <a class="text-white" style="text-decoration: none;">Temukan Kami di :</a>
+        <a class="social-button sb-facebook shape-none" href="#" target="_blank"><i class="socicon-facebook"></i></a>
+        <a class="social-button sb-twitter shape-none sb-dark" href="#" target="_blank"><i class="socicon-twitter"></i></a>
+        <a class="social-button sb-instagram shape-none sb-dark" href="#" target="_blank"><i class="socicon-instagram"></i></a>
+      
     </div>
+    </div>
+    
+   
+    </div> 
     <!-- Navbar-->
     <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
     <header class="navbar navbar-sticky">
@@ -266,12 +266,23 @@
         <div class="inner">
           <!-- Off-Canvas Toggle (#shop-categories)--><a class="offcanvas-toggle cats-toggle" href="#shop-categories" data-toggle="offcanvas"></a>
           <!-- Off-Canvas Toggle (#mobile-menu)--><a class="offcanvas-toggle menu-toggle" href="#mobile-menu" data-toggle="offcanvas"></a>
-          <!-- Site Logo--><a class="site-logo" href="<?php echo base_url();?>pembeli/dashboard"><img src="<?php echo base_url();?>assets/img/logo/iice-logo.png" alt="IICE"></a>
+          <!-- Site Logo--><a class="site-logo" href="<?php echo base_url();?>pembeli/dashboard"><img src="<?php echo base_url();?>assets/img/logo/iice-logo2.png" alt="IICE"></a>
         </div>
       </div>
       <!-- Main Navigation-->
       <nav class="site-menu">
         <ul>
+          <li style="width: 700px;">
+            <div class="col-sm-20 margin-top-1x">
+                <form class="input-group form-group" method="get"><span class="input-group-btn">
+                    <button type="submit"><i class="icon-search"></i></button></span>
+                  <input class="form-control" type="search" placeholder="Cari Produk">
+                </form>
+            </div>
+         </li>
+       </ul>
+      </nav>
+       <!--  <ul>
           <li>
             <a href="<?php echo base_url();?>pembeli/dashboard"><span>Shop</span></a>
             <ul class="sub-menu">
@@ -389,10 +400,11 @@
           </li>
         </ul>
        
+
        
 
      
-      </nav> 
+      </nav>  -->
       
      <!--    -->
       <!-- Toolbar-->
