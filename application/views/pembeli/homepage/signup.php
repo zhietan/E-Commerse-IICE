@@ -48,7 +48,7 @@
               <h5 class="text-normal text-muted mb-4">Sudah punya akun iice? masuk <a data-toggle="modal" data-target="#login" href="">Disini</a></h5>
               <!-- Modal Login -->
               
-              <form>
+              <form action="<?php echo base_url();?>pembeli/user/verifikasi" method="post">
 
                 <!-- <div class="form-group row">
               <label class="col-2 col-form-label" for="text-input">Nama </label>

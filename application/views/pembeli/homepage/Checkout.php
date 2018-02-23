@@ -19,7 +19,7 @@
     
  
   
-    <div class="page-title">
+    <!-- <div class="page-title">
         <div class="container">
           <div class="column">
             <h1>Checkout</h1>
@@ -33,25 +33,30 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     
-    <div class="container padding-bottom-3x mb-2">
+    <div class="container padding-top-3x mb-2">
         <div class="row">
           <!-- Checkout Adress-->
           <div class="col-xl-9 col-lg-8">
-            <div class="checkout-steps"><a href="checkout-review.html">4. Review</a><a href="checkout-payment.html"><span class="angle"></span>3. Payment</a><a href="checkout-shipping.html"><span class="angle"></span>2. Shipping</a><a class="active" href="checkout-address.html"><span class="angle"></span>1. Address</a></div>
-            <h4>Billing Address</h4>
+            <div class="checkout-steps">
+              <a href="checkout-review.html">4. Review</a>
+              <a href="checkout-payment.html"><span class="angle"></span>3. Pembayaran</a>
+              <a href="pengiriman"><span class="angle"></span>2. Pengiriman</a>
+              <a class="active" href="checkout-address.html"><span class="angle"></span>1. Alamat</a>
+            </div>
+            <h4>Alamat Lengkap</h4>
             <hr class="padding-bottom-1x">
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-fn">First Name</label>
+                  <label for="checkout-fn">Nama Depan</label>
                   <input class="form-control" type="text" id="checkout-fn">
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-ln">Last Name</label>
+                  <label for="checkout-ln">Nama Belakang</label>
                   <input class="form-control" type="text" id="checkout-ln">
                 </div>
               </div>
@@ -59,13 +64,13 @@
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-email">E-mail Address</label>
+                  <label for="checkout-email">Alamat E-mail</label>
                   <input class="form-control" type="email" id="checkout-email">
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-phone">Phone Number</label>
+                  <label for="checkout-phone">Nomer HP</label>
                   <input class="form-control" type="text" id="checkout-phone">
                 </div>
               </div>
@@ -79,15 +84,15 @@
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-country">Country</label>
+                  <label for="checkout-country">Provinsi</label>
                   <select class="form-control" id="checkout-country">
-                    <option>Choose country</option>
-                    <option>Australia</option>
-                    <option>Canada</option>
-                    <option>France</option>
-                    <option>Germany</option>
-                    <option>Switzerland</option>
-                    <option>USA</option>
+                    <option>Pilih Provinis</option>
+                    <option>Jawa Barat</option>
+                    <option>Jakarta</option>
+                    <option>Jawa Timur</option>
+                    <option>Jawa Tengah</option>
+                    <option>Banten</option>
+                    <option>Riau</option>
                   </select>
                 </div>
               </div>
@@ -95,10 +100,10 @@
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-city">City</label>
+                  <label for="checkout-city">Kota</label>
                   <select class="form-control" id="checkout-city">
-                    <option>Choose city</option>
-                    <option>Amsterdam</option>
+                    <option>Pilih Kota</option>
+                    <option>Jakarta</option>
                     <option>Berlin</option>
                     <option>Geneve</option>
                     <option>New York</option>
@@ -108,7 +113,7 @@
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-zip">ZIP Code</label>
+                  <label for="checkout-zip">Kode POS</label>
                   <input class="form-control" type="text" id="checkout-zip">
                 </div>
               </div>
@@ -116,18 +121,18 @@
             <div class="row padding-bottom-1x">
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-address1">Address 1</label>
+                  <label for="checkout-address1">Alamat 1</label>
                   <input class="form-control" type="text" id="checkout-address1">
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="checkout-address2">Address 2</label>
+                  <label for="checkout-address2">Alamat 2</label>
                   <input class="form-control" type="text" id="checkout-address2">
                 </div>
               </div>
             </div>
-            <h4>Shipping Address</h4>
+            <h4>Alamat Pengiriman</h4>
             <hr class="padding-bottom-1x">
             <div class="form-group">
               <div class="custom-control custom-checkbox">
@@ -136,8 +141,11 @@
               </div>
             </div>
             <div class="checkout-footer">
-              <div class="column"><a class="btn btn-outline-secondary" href="cart.html"><i class="icon-arrow-left"></i><span class="hidden-xs-down">&nbsp;Back To Cart</span></a></div>
-              <div class="column"><a class="btn btn-primary" href="checkout-shipping.html"><span class="hidden-xs-down">Continue&nbsp;</span><i class="icon-arrow-right"></i></a></div>
+              <div class="column">
+                <a class="btn btn-outline-secondary" href="<?php echo base_url();?>pembeli/user/view_cart">
+                  <i class="icon-arrow-left"></i><span class="hidden-xs-down">&nbsp;Kembali ke Keranjang</span></a>
+                </div>
+              <div class="column"><a class="btn btn-primary" href="pengiriman"><span class="hidden-xs-down">Lanjutkan&nbsp;</span><i class="icon-arrow-right"></i></a></div>
             </div>
           </div>
           <!-- Sidebar          -->
@@ -146,63 +154,62 @@
               <div class="padding-top-2x hidden-lg-up"></div>
               <!-- Order Summary Widget-->
               <section class="widget widget-order-summary">
-                <h3 class="widget-title">Order Summary</h3>
+                <h3 class="widget-title">Rekap Order</h3>
                 <table class="table">
                   <tr>
-                    <td>Cart Subtotal:</td>
-                    <td class="text-medium">$289.68</td>
+                    <td>Subtotal:</td>
+                    <td class="text-medium">Rp. 0</td>
                   </tr>
                   <tr>
-                    <td>Shipping:</td>
-                    <td class="text-medium">$22.50</td>
+                    <td>Ongkos Kirim:</td>
+                    <td class="text-medium">Rp.0</td>
                   </tr>
                   <tr>
-                    <td>Estimated tax:</td>
-                    <td class="text-medium">$3.42</td>
+                    <td>Estimasi Pajak:</td>
+                    <td class="text-medium">Rp.0</td>
                   </tr>
                   <tr>
                     <td></td>
-                    <td class="text-lg text-medium">$315.60</td>
+                    <td class="text-lg text-medium">Rp.0</td>
                   </tr>
                 </table>
               </section>
               <!-- Featured Products Widget-->
               <section class="widget widget-featured-products">
-                <h3 class="widget-title">Recently Viewed</h3>
-                <!-- Entry-->
-                <div class="entry">
-                  <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/01.jpg" alt="Product"></a></div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="shop-single.html">Oakley Kickback</a></h4><span class="entry-meta">$155.00</span>
-                  </div>
-                </div>
-                <!-- Entry-->
-                <div class="entry">
-                  <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/02.jpg" alt="Product"></a></div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="shop-single.html">Top-Sider Fathom</a></h4><span class="entry-meta">$90.00</span>
-                  </div>
-                </div>
-                <!-- Entry-->
-                <div class="entry">
-                  <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/03.jpg" alt="Product"></a></div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="shop-single.html">Vented Straw Fedora</a></h4><span class="entry-meta">$49.50</span>
-                  </div>
-                </div>
-                <!-- Entry-->
-                <div class="entry">
-                  <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/04.jpg" alt="Product"></a></div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="shop-single.html">Big Wordmark Tote</a></h4><span class="entry-meta">$29.99</span>
-                  </div>
-                </div>
+                <table class="table">
+                                        <tr>
+                                          <td>
+                                            <div class="entry-thumb"><a href="shop-single.html"><img src="<?php echo base_url();?>assets/img/expedisi/jne.png" alt="Product"></a></div></td>
+                                            <td>Reguler<ul class="list-check"></ul></td>
+                                            <td></td>
+                                            <td>Kilat</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <div class="entry-thumb"><a href="shop-single.html"><img src="<?php echo base_url();?>assets/img/expedisi/jnt.png" alt="Product"></a></div></td>
+                                            <td>Reguler<li class="list-check"></li></td>
+                                            <td></td>
+                                            <td>Kilat<li class="list-check"></li></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <div class="entry-thumb"><a href="shop-single.html"><img src="<?php echo base_url();?>assets/img/expedisi/sicepat.png" alt="Product"></a></div></td>
+                                            <td>Reguler<li class="list-check"></li></td>
+                                            <td></td>
+                                            <td>Kilat<li class="list-check"></li></td>
+                                            <td></td>
+                                        </tr>
+                                       
+                  </table>
               </section>
               <!-- Promo Banner-->
-              <section class="promo-box" style="background-image: url(img/banners/02.jpg);"><span class="overlay-dark" style="opacity: .4;"></span>
+              <section class="promo-box" style="background-image: url(<?php echo base_url();?>assets/img/shop/products/promo/hp1.jpg);"><span class="overlay-dark" style="opacity: .4;"></span>
                 <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
-                  <h4 class="text-light text-thin text-shadow">New Collection of</h4>
-                  <h3 class="text-bold text-light text-shadow">Sunglasses</h3><a class="btn btn-outline-white btn-sm" href="shop-grid-ls.html">Shop Now</a>
+                  <h4 class="text-light text-thin text-shadow">HOT Promo</h4>
+                  <h3 class="text-bold text-light text-shadow">Minggu ini</h3><a class="btn btn-outline-white btn-sm" href="shop-grid-ls.html">Beli Sekarang
+                  </a>
                 </div>
               </section>
             </aside>

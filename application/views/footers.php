@@ -10,13 +10,20 @@
                   
                 </ul>
                 <p class="text-white">Temukan kami di :</p>
-                <p><a class="navi-link-light" href="#">support@iice.co.id</a></p><a class="social-button shape-circle sb-facebook sb-light-skin" href="#"><i class="socicon-facebook"></i></a><a class="social-button shape-circle sb-twitter sb-light-skin" href="#"><i class="socicon-twitter"></i></a><a class="social-button shape-circle sb-instagram sb-light-skin" href="#"><i class="socicon-instagram"></i></a><a class="social-button shape-circle sb-google-plus sb-light-skin" href="#"><i class="socicon-googleplus"></i></a>
+                <a class="social-button shape-circle sb-facebook sb-light-skin" href="#"><i class="socicon-facebook"></i></a>
+                <a class="social-button shape-circle sb-twitter sb-light-skin" href="#"><i class="socicon-twitter"></i></a>
+                <a class="social-button shape-circle sb-instagram sb-light-skin" href="#"><i class="socicon-instagram"></i></a>
+                <a class="social-button shape-circle sb-google-plus sb-light-skin" href="#"><i class="socicon-googleplus"></i></a>
               </section>
             </div>
             <div class="col-lg-3 col-md-6">
               <!-- Mobile App Buttons-->
               <section class="widget widget-light-skin">
-                <h3 class="widget-title">Download Aplikasi Kami</h3><a class="market-button apple-button mb-light-skin" href="#"><span class="mb-subtitle">Download on the</span><span class="mb-title">App Store</span></a><a class="market-button google-button mb-light-skin" href="#"><span class="mb-subtitle">Download on the</span><span class="mb-title">Google Play</span></a>
+                <h3 class="widget-title">Download Aplikasi Kami</h3>
+
+                <a class="market-button apple-button mb-light-skin" href="#">
+                  <span class="mb-subtitle">Download on the</span><span class="mb-title">App Store</span></a>
+                <a class="market-button google-button mb-light-skin" href="#"><span class="mb-subtitle">Download on the</span><span class="mb-title">Google Play</span></a>
               </section>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -58,7 +65,7 @@
             <div class="col-md-5 padding-bottom-1x">
               <div class="margin-top-1x hidden-md-up"></div>
               <!--Subscription-->
-              <form class="subscribe-form" action="http://rokaux.us12.list-manage.com/subscribe/post?u=c7103e2c981361a6639545bd5&amp;amp;id=1194bb7544" method="post" target="_blank" novalidate>
+              <form class="subscribe-form" action="http://iice.co.id/olhsop" method="post" target="_blank" novalidate>
                 <div class="clearfix">
                   <div class="input-group input-light">
                     <input class="form-control" type="email" name="EMAIL" placeholder="Your e-mail"><span class="input-group-addon"><i class="icon-mail"></i></span>
@@ -73,6 +80,6 @@
             </div>
           </div>
           <!-- Copyright-->
-          <p class="footer-copyright">© All rights reserved. Made with &nbsp;<i class="icon-heart text-danger"></i><a href="../../../../rokaux.com/index.html" target="_blank"> &nbsp;by iice DevTeam</a></p>
+          <p class="footer-copyright">PT. TRIFFECTA RADIUS INTERNASIONAL &nbsp;<i class="icon-map text-danger"></i><a href="../../../../rokaux.com/index.html" target="_blank"> &nbsp;Landmark Pluit Office Park - Blok E18 Jl.Pluit Raya No.2 Jakarta Utara </a></p>
         </div>
       </footer>

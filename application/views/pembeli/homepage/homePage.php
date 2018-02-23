@@ -77,16 +77,16 @@
     </div>
 	<content>
 		<div class="offcanvas-wrapper">
-      
+      <section class="bg-faded">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
           <hr class="margin-bottom-1x">
             <!-- carousel banner kanan -->
             <div class="owl-carousel" data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true,&quot;autoplay&quot;: true }">
-              <img src="<?php echo base_url();?>assets/img/components/img01.jpg" alt="Image">
-              <img src="<?php echo base_url();?>assets/img/components/img02.jpg" alt="Image">
-              <img src="<?php echo base_url();?>assets/img/components/img03.jpg" alt="Image">
+              <img src="<?php echo base_url();?>assets/img/shop/products/promo/1.jpg" alt="Image">
+              <img src="<?php echo base_url();?>assets/img/shop/products/promo/2.jpg" alt="Image">
+              <img src="<?php echo base_url();?>assets/img/shop/products/promo/3.jpg" alt="Image">
             </div>
           
           </div>
@@ -94,60 +94,93 @@
             <!--  Men promo -->
             <div class="col-md-6">
              <div class="hidden-xs-down">
-              <hr class="margin-bottom-1x">
+              <hr>
+              <h3 class="text-bold pitapromo">Promo Terbaru Minggu ini</h3>
+              <br>
             <div class="card-group">
-
               <div class="card margin-bottom-1x">
+                <div class="text-light hotpromo"><h6>5 Hari lagi</h6></div>
+                <a href="#">
+                  <img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/promo/hp1.jpg" alt="Card image">
+                  </a>
+                  <a href="#">
+                  </a>
+                </div>
+                <div class="card margin-bottom-1x">
+                <div class="text-light hotpromo"><h6>6 Hari lagi</h6></div>
+                <a href="#">
+                <img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/promo/hp3.jpg" alt="Card image">
+              </a>
+    
+                </div>
+                <div class="card margin-bottom-1x">
+                <div class="text-light hotpromo"><h6>10 Hari lagi</h6></div>
+                <a href="#">
+                <img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/promo/hp3.jpg" alt="Card image">
+              </a>
+   
+                </div>
+
+            </div>
+           <!--  <div class="card-group">
+              <div class="card margin-bottom-1x">
+                <div class="text-light hotpromo"><h6>Diskon 50%</h6></div>
                 <a href="#">
                   <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img04.jpg" alt="Card image">
                   </a>
-                  <div class="text-danger" align="center">5 hari lagi</div>
                   <a href="#">
-                <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img04.jpg" alt="Card image">
                   </a>
-                <div class="card-body">
-                  <h6 class="text-center">12 Hari lagi</h6>
                 </div>
-               
-              </div>
-              <div class="card margin-bottom-1x">
+                <div class="card margin-bottom-1x">
+                <div class="text-light hotpromo"><h6>Diskon 20%</h6></div>
                 <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img05.jpg" alt="Card image">
-                 <div class="text-danger" align="center">5 hari lagi</div>
-                <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img04.jpg" alt="Card image">
-                <div class="card-body">
-                  <h6 class="text-center">12 Hari lagi</h6>
-                  
+    
                 </div>
-                
-              </div>
-              <div class="card margin-bottom-1x">
+                <div class="card margin-bottom-1x">
+                <div class="text-light hotpromo"><h6>Diskon 10%</h6></div>
                 <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img06.jpg" alt="Card image">
-                 <div class="text-danger" align="center">5 hari lagi</div>
-                <img class="card-img-top" src="<?php echo base_url();?>assets/img/components/img04.jpg" alt="Card image">
-                <div class="card-body">
-                  <h6 class="text-center">17 Hari lagi</h6>
-                  
+   
                 </div>
-                
-              </div>
-            </div>
-            </div>
 
-          
+            </div> -->
             </div>
-          <!-- Akhir menu Promo -->
+            </div>
           </div>
            
-            
-              
-          
-        
       </div>
+    </section>
+      <!-- Akhir Silde Bamnner atas -->
       <section>
+        <div class="container">
       	<!-- Top Categories-->
-      <section class="container">
-         <div class="hidden-xs-down">
-        <hr class="">
+        <div class="col-xl-12 content-box ">
+                <div class="row row-featured row-featured-category">
+
+                   
+                    <div class="col-xl-12  box-title no-border">
+                        <div class="inner"><h2><span>Kategori</span>
+                            Produk <a href="<?php echo base_url();?>pembeli/kategori_produk" class="sell-your-item">Lihat Lebih banyak <i
+                                    class="  icon-th-list"></i> </a></h2>
+                        </div>
+                    </div>
+                    <?php foreach ($categoryproduct_list as $cpl) {
+                    ?>
+                    <div class="col-xl-2 col-md-3 col-sm-3 col-xs-4 f-category">
+                        <a href="<?php echo base_url(); ?>pembeli/produk/kategori_produk/viewcategoryproduct/<?php echo $cpl->ProductCategoryID; ?>"><img src="<?php echo base_url();?>assets/img/Kategori/camera.jpg" class="img-responsive" alt="img">
+                            <h6> <?php echo $cpl->ProductCategoryName; ?> </h6></a>
+                    </div>
+                    <?php 
+                      }
+                    ?>
+
+                </div>
+
+
+            </div>
+          </div>
+      <!-- <section class="container">
+         <div class="hidden-xs-down padding-top-2x">
+       
         <h3 class="text-left">Kategory Produk</h3>
         <div class="row">
           <div class="col-md-2 col-sm-4">
@@ -260,266 +293,175 @@
           </div>
 
         </div>
-        <div class="text-center"><a class="btn btn-primary margin-top-none" href="<?php echo base_url(); ?>pembeli/kategori_produk">Semua Categories</a></div>
+        <div class="text-center"><a class="btn btn-primary margin-top-none" href="<?php echo base_url(); ?>pemBELI SEKARANG/kategori_produk">Lihat Semua Categories</a></div>
       </div>
+      </section> -->
       </section>
-      </section>
-		
+
 		
 		<section> <!-- resserler -->
 			<div class="container">
+        <hr class="">
 				<div class="row" style="margin-top:5px">
+          
+             <h4 class="text-danger text-bold text-uppercase">Smartphone Terlaris</h4>
 					
 					<!-- <div class="container-iice"> -->
-						<div class="container padding-bottom-3x mb-1">
+						<div class="container padding-bottom-2x mb-1">
         <!-- Shop Toolbar-->
         <div class="shop-toolbar padding-bottom-1x mb-2">
           <div class="column">
             <div class="shop-sorting">
-              <label for="sorting">Sort by:</label>
+              <label for="sorting">Urut Berdasarkan :</label>
               <select class="form-control" id="sorting">
-                <option>Popularity</option>
-                <option>Low - High Price</option>
-                <option>High - Low Price</option>
-                <option>Avarage Rating</option>
+                <option>Ter Populer</option>
+                <option>ter-Murah - ter-Mahal</option>
+                <option>ter-Hamal - ter-Murah</option>
                 <option>A - Z Order</option>
                 <option>Z - A Order</option>
               </select><span class="text-muted">Showing:&nbsp;</span><span>1 - 12 items</span>
             </div>
           </div>
-          <div class="column">
+          <!-- <div class="column">
             <div class="shop-view"><a class="grid-view active" href="shop-grid-ns.html"><span></span><span></span><span></span></a><a class="list-view" href="shop-list-ns.html"><span></span><span></span><span></span></a></div>
-          </div>
+          </div> -->
         </div>
         <!-- Products Grid-->
-        <div class="isotope-grid cols-4 mb-2">
+        <div class="isotope-grid cols-5 mb-2">
           <div class="gutter-sizer"></div>
           <div class="grid-sizer"></div>
+          
+                           
+        
           <!-- Product-->
+          <?php 
+            foreach ($product_list as $pl) {
+          ?>
           <div class="grid-item">
             <div class="product-card">
-              <div class="product-badge text-danger">50% Off</div><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/01.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Unionbay Park</a></h3>
-              <h4 class="product-price">
-                <del>$99.99</del>$49.99
-              </h4>
+              <!-- <div class="text-light merek"><img style="height: 25px;" src="<?php echo base_url();?>assets/img/brands/small/asus.png"></div> -->
+              <a class="product-thumb" href="<?php echo base_url();?>pembeli/produk/produk/detail_produk/<?php echo $pl->ProductID; ?>">
+                <img src="<?php echo base_url();?>assets/img/shop/products/hp/<?php echo $pl->ProductsImage; ?>" alt="Product">
+              </a>
+              <h3 class="product-title"><a href="<?php echo base_url();?>pembeli/produk/detail_produk/<?php echo $pl->ProductID; ?>"><?php echo $pl->DescriptionsTitle; ?> </a></h3>
+              <h6 align="center">
+                <del><!-- harga yang di diskon --></del>&nbsp;Rp.<?php echo number_format($pl->ProductPrice, 2, '.', ','); ?>
+                
+              </h6>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+                <a href="<?php echo base_url(); ?>pembeli/produk/keranjang/add_cart/<?php echo $pl->ProductID; ?>" class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">BELI SEKARANG</a>
+                <!-- <a href="<?php echo base_url(); ?>pembeli/produk/keranjang/add_cart/<?php echo $pl->ProductID; ?>">add to cart</a> -->
               </div>
             </div>
           </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/03.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Cole Haan Crossbody</a></h3>
-              <h4 class="product-price">$200.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card">
-                <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star"></i>
-                </div><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/03.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Oakley Kickback</a></h3>
-              <h4 class="product-price">$155.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/04.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Waist Leather Belt</a></h3>
-              <h4 class="product-price">$47.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card">
-                <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star"></i><i class="icon-star"></i>
-                </div><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/05.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Jordan City Man's Hoodie</a></h3>
-              <h4 class="product-price">$65.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card">
-              <div class="product-badge text-danger">40% Off</div><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/06.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Palace Shell Track Jacket</a></h3>
-              <h4 class="product-price">
-                <del>$60.00</del>$36.00
-              </h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/07.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Stretch Woven Jogger</a></h3>
-              <h4 class="product-price">$69.99</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card">
-              <div class="product-badge text-muted">Out of stock</div><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/08.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Off the Shoulder Top</a></h3>
-              <h4 class="product-price">$128.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button><a class="btn btn-outline-secondary btn-sm" href="shop-single.html">View Details</a>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card">
-              <div class="product-badge text-danger">22% Off</div><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/09.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Rocket Dog</a></h3>
-              <h4 class="product-price">
-                <del>$44.95</del>$34.99
-              </h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/10.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Daily Fabric Cap</a></h3>
-              <h4 class="product-price">$31.99</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card">
-                <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i>
-                </div><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/11.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Top-Sider Fathom</a></h3>
-              <h4 class="product-price">$90.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/12.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Vented Straw Fedora</a></h3>
-              <h4 class="product-price">$49.50</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/13.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Diamond Quilted Backpack</a></h3>
-              <h4 class="product-price">$88.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/14.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Skagen Holst Watch</a></h3>
-              <h4 class="product-price">$145.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/15.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Metal Star Earings</a></h3>
-              <h4 class="product-price">$90.00</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <!-- Product-->
-          <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="<?php echo base_url();?>assets/img/shop/products/16.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Big Wordmark Tote</a></h3>
-              <h4 class="product-price">$29.99</h4>
-              <div class="product-buttons">
-                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
-                <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Pagination-->
-        <nav class="pagination">
-          <div class="column">
-            <ul class="pages">
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li>...</li>
-              <li><a href="#">12</a></li>
-            </ul>
-          </div>
-          <div class="column text-right hidden-xs-down"><a class="btn btn-outline-secondary btn-sm" href="#">Next&nbsp;<i class="icon-arrow-right"></i></a></div>
-        </nav>
-      </div>
-						
+          <?php 
+            }
+          ?>     
 
 					<!-- </div> -->
 				</div>
 			</div>
 		</section> <!-- akhir reseller -->
+    <section> <!-- resserler -->
+      <div class="container">
+        <h4 class="text-warning text-bold text-uppercase">Produk Terlaris</h4>
+            <hr class="margin-bottom-1x">
+            <div class="row">
+
+              <div class="col-sm-2 mb-4">
+                <div class="card text-center">
+                  <div class="text-light pitapromo"><img style="height: 25px;" src="<?php echo base_url();?>assets/img/brands/small/asus.png"></div>
+                  <a href="#"><img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/hp/asuslaptop.jpg" alt="Team"></a>
+                  
+                    <h5 class="card-title">Asus ZenBook X441N Intel Core i3</h5>
+                    <h4 class="product-price">Rp.3.550.000</h4>
+                    <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">BELI SEKARANG</button>
+                  
+                </div>
+              </div>
+
+              <div class="col-sm-2 mb-4">
+                <div class="card text-center">
+                  <div class="text-light pitapromo"><img style="height: 25px;" src="<?php echo base_url();?>assets/img/brands/small/philip.png"></div>
+                  <img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/hp/headset.jpg" alt="Team">
+                  
+                    <h5 class="card-title">Headphone Philip SHL3060</h5>
+                    <h4 class="product-price">$29.99</h4>
+                    <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">BELI SEKARANG</button>
+                  
+                </div>
+              </div>
+
+              <div class="col-sm-2 mb-4">
+                <div class="card text-center">
+                  <div class="text-light pitapromo"><img style="height: 25px;" src="<?php echo base_url();?>assets/img/brands/small/mi.png"></div>
+                  <img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/hp/powerbank.jpg" alt="Team">
+                  
+                    <h5 class="card-title">Powerbank Xiaomi 1000 MAh</h5>
+                    <h4 class="product-price">$29.99</h4>
+                    <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">BELI SEKARANG</button>
+                  
+                </div>
+              </div>
+
+              <div class="col-sm-2 mb-4">
+                <div class="card text-center">
+                  <div class="text-light pitapromo"><img style="height: 25px;" src="<?php echo base_url();?>assets/img/brands/small/canon.png"></div>
+                  <img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/hp/CanonEOS.jpg" alt="Team">
+                  
+                    <h5 class="card-title">Canon EOS M10</h5>
+                    <h4 class="product-price">$29.99</h4>
+                    <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">BELI SEKARANG</button>
+                 
+                </div>
+              </div>
+
+              <div class="col-sm-2 mb-4">
+                <div class="card text-center">
+                  <div class="text-light pitapromo"><img style="height: 25px;" src="<?php echo base_url();?>assets/img/brands/small/logitek.png"></div>
+                  <img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/hp/mouse.jpg" alt="Team">
+                
+                    <h5 class="card-title">Logitech M557 Bluetooth</h5>
+                    <h4 class="product-price">$29.99</h4>
+                    <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">BELI SEKARANG</button>
+                 
+                </div>
+              </div>
+
+              <div class="col-sm-2 mb-4">
+                <div class="card text-center">
+                  <div class="text-light pitapromo"><img style="height: 25px;" src="<?php echo base_url();?>assets/img/brands/small/sandisk.png"></div>
+                  <img class="card-img-top" src="<?php echo base_url();?>assets/img/shop/products/hp/msd.jpg" alt="Team">
+                 
+                    <h5 class="card-title">Kane Montoya</h5>
+                    <h4 class="product-price">$29.99</h4>
+                    <button class="btn btn-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">BELI SEKARANG</button>
+                  
+                </div>
+              </div>
+
+
+
+              
+        
+    </section> 
+
+    <!-- akhir reseller -->
 		<!-- Brand populer -->
-			 <section class="bg-faded padding-top-3x padding-bottom-3x">
+			 <section class="bg-faded padding-top-1x padding-bottom-1x">
         <div class="container">
           <h3 class="text-center mb-30 pb-2">Brands Resmi</h3>
           <div class="owl-carousel" data-owl-carousel="{ &quot;nav&quot;: false, &quot;dots&quot;: false, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:2}, &quot;470&quot;:{&quot;items&quot;:3},&quot;630&quot;:{&quot;items&quot;:4},&quot;991&quot;:{&quot;items&quot;:5},&quot;1200&quot;:{&quot;items&quot;:6}} }">
-          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/01.png" alt="Adidas">
-          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/02.png" alt="Brooks">
-          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/03.png" alt="Valentino">
-          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/04.png" alt="Nike">
-          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/05.png" alt="Puma">
-          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/06.png" alt="New Balance">
-          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/07.png" alt="Dior">
+          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/1.png" alt="Asus">
+          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/2.png" alt="Samsung">
+          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/3.png" alt="Mi">
+          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/4.png" alt="oppo">
+          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/5.png" alt="Sandisk">
+          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/6.png" alt="vivo">
+          	<img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/7.png" alt="Canon">
+            <img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/8.png" alt="Philip">
+            <img class="d-block w-110 opacity-75 m-auto" src="<?php echo base_url();?>assets/img/brands/9.png" alt="Motorola">
           </div>
         </div>
       </section>

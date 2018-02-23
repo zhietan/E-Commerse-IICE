@@ -18,6 +18,7 @@
     <link rel="stylesheet" media="screen" href="<?php echo base_url();?>assets/css/vendor.min.css">
     <!-- Main Template Styles-->
     <link id="mainStyles" rel="stylesheet" media="screen" href="<?php echo base_url();?>assets/css/styles.min.css">
+    <link id="mainStyles" rel="stylesheet" href="<?php echo base_url();?>assets/css/style1.css">
     <!-- Customizer Styles-->
     <link rel="stylesheet" media="screen" href="<?php echo base_url();?>assets/customizer/customizer.min.css">
     <!-- Google Tag Manager-->
